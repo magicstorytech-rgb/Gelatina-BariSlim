@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BariSlim 28D — Desafio da Gelatina Noturna</title>
+<!-- Facebook Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1016783737352171');
+fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1016783737352171&ev=PageView&noscript=1"/></noscript>
+<!-- End Facebook Pixel -->
+<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
+<link rel="preload" href="https://scripts.converteai.net/d8a1f353-ea4b-4454-88ea-19663408d700/players/6a0fe36c3af54965d468cced/v4/player.js" as="script">
+<link rel="preload" href="https://scripts.converteai.net/d8a1f353-ea4b-4454-88ea-19663408d700/players/6a0ff2b63e6d63af75a9a095/v4/player.js" as="script">
+<link rel="dns-prefetch" href="https://cdn.converteai.net">
+<link rel="dns-prefetch" href="https://scripts.converteai.net">
+<link rel="dns-prefetch" href="https://images.converteai.net">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pur:#8B5CF6;--pur-dark:#6D28D9;--pur-deep:#3B0764;
+  --pur-light:#C4B5FD;--pur-pale:#EDE9FE;--pur-soft:#F5F3FF;
+  --grn:#22C55E;--grn-dark:#15803D;--grn-light:#86EFAC;--grn-pale:#F0FDF4;
+  --bg:#FAF9FF;--bg2:#F0EBFF;--card:#FFFFFF;
+  --dark:#1E1033;--text-med:#4C1D95;--text-muted:#7C6FA0;
+  --warn:#F97316;--warn-bg:#FFF7ED;--red:#E53E3E;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--dark);min-height:100vh;overflow-x:hidden;}
+.page-wrap{max-width:480px;margin:0 auto;padding:0 0 40px;}
+.headline{font-family:'Fraunces',serif;}
+.pur-text{background:linear-gradient(135deg,var(--pur-dark) 0%,var(--pur) 60%,#A78BFA 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.grn-text{background:linear-gradient(135deg,var(--grn-dark),var(--grn));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.btn-main{display:block;width:100%;padding:17px 24px;background:linear-gradient(135deg,var(--pur-dark) 0%,var(--pur) 60%,#A78BFA 100%);color:white;font-family:'Nunito',sans-serif;font-weight:900;font-size:0.92rem;letter-spacing:0.06em;text-transform:uppercase;border-radius:14px;border:none;cursor:pointer;text-align:center;text-decoration:none;box-shadow:0 6px 24px rgba(109,40,217,0.35);transition:all 0.25s ease;}
+.btn-main:hover{transform:translateY(-2px);filter:brightness(1.08);}
+.btn-grn{display:block;width:100%;padding:17px 24px;background:linear-gradient(135deg,var(--grn-dark),var(--grn));color:white;font-family:'Nunito',sans-serif;font-weight:900;font-size:0.95rem;letter-spacing:0.04em;text-transform:uppercase;border-radius:14px;border:none;cursor:pointer;text-align:center;text-decoration:none;box-shadow:0 6px 24px rgba(34,197,94,0.35);transition:all 0.25s ease;}
+.btn-grn:hover{transform:translateY(-2px);filter:brightness(1.08);}
+.btn-outline{display:block;width:100%;padding:15px 24px;background:transparent;color:var(--pur-dark);font-family:'Nunito',sans-serif;font-weight:800;font-size:0.88rem;letter-spacing:0.05em;text-transform:uppercase;border-radius:14px;border:2px solid var(--pur);cursor:pointer;text-align:center;text-decoration:none;transition:all 0.25s ease;}
+.btn-outline:hover{background:rgba(139,92,246,0.06);}
+.card{background:var(--card);border-radius:20px;box-shadow:0 2px 20px rgba(59,7,100,0.07);overflow:hidden;}
+.prog-track{background:#DDD6FE;border-radius:99px;height:5px;}
+.prog-fill{background:linear-gradient(90deg,var(--pur-dark),#A78BFA);border-radius:99px;height:5px;transition:width 0.5s ease;}
+.q-option{background:white;border:2px solid #DDD6FE;border-radius:14px;cursor:pointer;transition:all 0.22s ease;padding:14px 16px;display:flex;align-items:center;gap:12px;color:var(--dark);font-weight:600;font-size:0.9rem;}
+.q-option:hover{border-color:var(--pur);background:rgba(139,92,246,0.04);transform:translateX(3px);}
+.q-option.sel{border-color:var(--pur);background:linear-gradient(135deg,rgba(139,92,246,0.08),rgba(139,92,246,0.03));box-shadow:0 0 0 4px rgba(139,92,246,0.1);}
+.q-check{width:22px;height:22px;border-radius:50%;border:2px solid #C4B5FD;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:900;color:transparent;transition:all 0.2s;}
+.q-option.sel .q-check{background:var(--pur);border-color:var(--pur);color:white;}
+.emoji-pill{width:36px;height:36px;border-radius:10px;background:var(--bg2);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;}
+.chart-bar-wrap{margin-bottom:18px;}
+.chart-label{display:flex;justify-content:space-between;font-size:0.78rem;font-weight:700;margin-bottom:6px;}
+.chart-track{background:#F0EBFF;border-radius:99px;height:28px;overflow:hidden;}
+.chart-fill{height:100%;border-radius:99px;display:flex;align-items:center;padding-left:12px;font-size:0.75rem;font-weight:800;color:white;white-space:nowrap;transition:width 1.4s cubic-bezier(.4,0,.2,1);}
+.fill-pur{background:linear-gradient(90deg,var(--pur-dark),#A78BFA);}
+.fill-grn{background:linear-gradient(90deg,var(--grn-dark),var(--grn));}
+.fill-red{background:linear-gradient(90deg,#E53E3E,#FC8181);}
+.fill-gray{background:linear-gradient(90deg,#718096,#A0AEC0);}
+@keyframes pulseBar{0%,100%{filter:brightness(1);}50%{filter:brightness(1.18);}}
+.pulse-anim{animation:pulseBar 2s ease-in-out infinite;}
+.load-bar-fill{background:linear-gradient(90deg,var(--pur-deep),var(--pur),#A78BFA);height:10px;border-radius:99px;width:0%;}
+@keyframes fadeInOut{0%,100%{opacity:0.4;}50%{opacity:1;}}
+.blink{animation:fadeInOut 1.4s ease-in-out infinite;}
+.testi-card{background:white;border-radius:14px;padding:14px;border:1px solid #DDD6FE;box-shadow:0 2px 12px rgba(59,7,100,0.06);}
+.stars{color:#F59E0B;font-size:0.85rem;letter-spacing:1px;}
+
+/* ===== PREMIUM CARD — destaque máximo ===== */
+.premium-glow{
+  border:3px solid var(--pur);
+  box-shadow:0 0 0 5px rgba(139,92,246,0.13),0 12px 40px rgba(109,40,217,0.28);
+  animation:premiumPulse 2.8s ease-in-out infinite;
+  overflow:visible !important;
+}
+@keyframes premiumPulse{
+  0%,100%{box-shadow:0 0 0 5px rgba(139,92,246,0.13),0 12px 40px rgba(109,40,217,0.28);}
+  50%{box-shadow:0 0 0 9px rgba(139,92,246,0.2),0 18px 52px rgba(109,40,217,0.38);}
+}
+.badge-hot{background:linear-gradient(135deg,var(--pur-dark),var(--pur));color:white;font-size:0.65rem;font-weight:900;letter-spacing:0.1em;text-transform:uppercase;padding:5px 16px;border-radius:99px;display:inline-block;box-shadow:0 3px 10px rgba(109,40,217,0.4);}
+.badge-grn{background:linear-gradient(135deg,var(--grn-dark),var(--grn));color:white;font-size:0.62rem;font-weight:900;letter-spacing:0.1em;text-transform:uppercase;padding:4px 12px;border-radius:99px;display:inline-block;}
+.div-pur{height:1px;background:linear-gradient(90deg,transparent,var(--pur-pale),transparent);margin:16px 0;}
+.div-grn{height:1px;background:linear-gradient(90deg,transparent,#86EFAC,transparent);margin:16px 0;}
+.tag{display:inline-flex;align-items:center;gap:4px;background:var(--bg2);color:var(--pur-dark);font-size:0.72rem;font-weight:700;padding:4px 10px;border-radius:99px;border:1px solid #DDD6FE;}
+.field{background:white;border:2px solid #DDD6FE;border-radius:12px;color:var(--dark);padding:14px 16px;font-family:'Nunito',sans-serif;font-size:1rem;font-weight:600;width:100%;outline:none;transition:border-color 0.2s;}
+.field:focus{border-color:var(--pur);box-shadow:0 0 0 3px rgba(139,92,246,0.1);}
+.field::placeholder{color:#C4B5FD;font-weight:400;}
+.logo-box{background:white;border-radius:14px;padding:8px 20px;display:inline-block;box-shadow:0 2px 10px rgba(59,7,100,0.1);}
+.logo-box img{height:48px;width:auto;object-fit:contain;display:block;}
+.screen{animation:sIn 0.38s ease forwards;}
+@keyframes sIn{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
+.hidden{display:none!important;}
+.mb-4{margin-bottom:16px;}
+.body-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px;}
+.body-card{background:white;border:2px solid #DDD6FE;border-radius:16px;cursor:pointer;transition:all 0.22s ease;padding:10px;text-align:center;overflow:hidden;}
+.body-card:hover{border-color:var(--pur);transform:translateY(-2px);}
+.body-card.sel{border-color:var(--pur);background:var(--pur-soft);}
+.body-card img{width:100%;height:150px;object-fit:cover;border-radius:10px;margin-bottom:8px;}
+.body-card-label{font-size:0.82rem;font-weight:800;color:var(--dark);}
+.goal-item{display:flex;align-items:center;gap:12px;background:white;border:2px solid #DDD6FE;border-radius:12px;padding:12px 14px;cursor:pointer;transition:all 0.2s;margin-bottom:8px;}
+.goal-item:hover{border-color:var(--pur);}
+.goal-item.sel{border-color:var(--grn);background:rgba(34,197,94,0.04);}
+.goal-item .goal-check{width:22px;height:22px;border-radius:6px;border:2px solid #C4B5FD;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:12px;color:transparent;transition:all 0.2s;}
+.goal-item.sel .goal-check{background:var(--grn);border-color:var(--grn);color:white;}
+.area-layout{display:flex;gap:12px;align-items:flex-start;}
+.area-img{width:90px;flex-shrink:0;}
+.area-img img{width:100%;border-radius:12px;}
+.area-pills{display:flex;flex-wrap:wrap;gap:8px;flex:1;}
+.area-pill{border:2px solid #DDD6FE;border-radius:99px;padding:8px 14px;cursor:pointer;transition:all 0.2s;background:white;font-size:0.8rem;font-weight:700;color:var(--dark);}
+.area-pill:hover{border-color:var(--pur);}
+.area-pill.sel{border-color:var(--pur);background:var(--pur-soft);color:var(--pur-dark);}
+.carousel-wrap{position:relative;overflow:hidden;border-radius:16px;}
+.carousel-slides{display:flex;transition:transform 0.5s ease;}
+.carousel-slide{min-width:100%;}
+.carousel-slide img{width:100%;display:block;border-radius:16px;}
+.carousel-dots{display:flex;justify-content:center;gap:6px;padding:10px 0;}
+.carousel-dot{width:8px;height:8px;border-radius:50%;background:#DDD6FE;transition:all 0.3s;}
+.carousel-dot.active{background:var(--pur);width:24px;border-radius:99px;}
+.commit-opt{background:white;border:2px solid #DDD6FE;border-radius:16px;padding:16px;cursor:pointer;transition:all 0.22s;text-align:center;margin-bottom:10px;}
+.commit-opt:hover{border-color:var(--pur);transform:translateY(-2px);}
+.commit-opt.sel{border-color:var(--grn);background:var(--grn-pale);}
+.week-row{display:flex;align-items:flex-start;gap:14px;padding:14px 0;border-bottom:1px solid #F0EBFF;}
+.week-row:last-child{border-bottom:none;}
+.week-dot{width:16px;height:16px;border-radius:50%;background:var(--pur);flex-shrink:0;margin-top:3px;}
+.week-dot.grn{background:var(--grn);}
+.glp-pill{background:linear-gradient(135deg,#F0FDF4,#DCFCE7);border:2px solid var(--grn-light);border-radius:14px;padding:14px;margin-bottom:16px;display:flex;gap:12px;align-items:flex-start;}
+.vturb-container{background:#0A0011;border-radius:16px;overflow:hidden;margin-bottom:16px;}
+.depo-mini{display:flex;gap:10px;align-items:flex-start;background:white;border:1px solid #DDD6FE;border-radius:14px;padding:10px;margin-top:12px;}
+.depo-mini img{width:64px;height:64px;object-fit:cover;border-radius:10px;flex-shrink:0;}
+.body-goal-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.body-goal-card{background:white;border:2px solid #DDD6FE;border-radius:16px;padding:18px;text-align:center;cursor:pointer;transition:all 0.22s;}
+.body-goal-card:hover{border-color:var(--pur);transform:translateY(-2px);}
+.body-goal-card.sel{border-color:var(--grn);background:var(--grn-pale);}
+.price-old{font-size:0.78rem;color:#A0AEC0;text-decoration:line-through;}
+.price-new{font-family:'Fraunces',serif;font-size:2.4rem;color:var(--pur-dark);font-weight:900;line-height:1;}
+.celeb-badge{background:linear-gradient(135deg,var(--grn-dark),var(--grn));color:white;font-size:0.68rem;font-weight:900;letter-spacing:0.1em;text-transform:uppercase;padding:5px 14px;border-radius:99px;display:inline-block;margin-bottom:12px;}
+
+/* ===== BENEFÍCIOS 2 colunas ===== */
+.recv-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;}
+.recv-item{display:flex;align-items:flex-start;gap:8px;padding:10px 10px;background:var(--pur-soft);border-radius:10px;border-left:3px solid var(--pur);}
+.recv-item-full{display:flex;align-items:flex-start;gap:8px;padding:10px 12px;background:var(--pur-soft);border-radius:10px;border-left:3px solid var(--pur);margin-bottom:8px;}
+.recv-bonus{display:flex;align-items:flex-start;gap:8px;padding:10px 10px;background:var(--grn-pale);border-radius:10px;border-left:3px solid var(--grn);}
+.recv-bonus-full{display:flex;align-items:flex-start;gap:8px;padding:10px 12px;background:var(--grn-pale);border-radius:10px;border-left:3px solid var(--grn);margin-bottom:8px;}
+.recv-label{font-size:0.78rem;font-weight:800;color:var(--pur-dark);line-height:1.3;}
+.recv-sub{font-size:0.66rem;color:var(--text-muted);line-height:1.3;margin-top:2px;}
+.recv-bonus .recv-label{color:var(--grn-dark);}
+.recv-bonus-full .recv-label{color:var(--grn-dark);}
+.recv-emoji{font-size:1.05rem;flex-shrink:0;margin-top:1px;}
+.logo-row{text-align:center;margin-bottom:18px;}
+
+/* popular ribbon */
+.popular-wrap{position:relative;margin-bottom:14px;}
+.popular-ribbon{position:absolute;top:-18px;left:0;right:0;display:flex;justify-content:center;z-index:10;}
+.popular-ribbon span{background:linear-gradient(135deg,#F59E0B,#FBBF24);color:#1E1033;font-size:0.68rem;font-weight:900;letter-spacing:0.12em;text-transform:uppercase;padding:5px 20px;border-radius:99px;box-shadow:0 4px 14px rgba(245,158,11,0.45);}
+.premium-card-inner{padding:22px 20px 20px;background:linear-gradient(160deg,#FAF5FF 0%,#FFFFFF 60%,#F0FDF4 100%);border-radius:18px;}
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+<!-- ===== INTRO ===== -->
+<div id="s1" class="screen">
+  <div style="padding:32px 24px 0;display:flex;flex-direction:column;align-items:center;text-align:center;">
+    <div style="margin-bottom:28px;"><div class="logo-box"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.2rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+    <div style="display:inline-flex;align-items:center;gap:6px;background:var(--pur-pale);border:1px solid #DDD6FE;border-radius:99px;padding:6px 16px;margin-bottom:16px;"><span style="font-size:0.72rem;">🔥</span><span style="color:var(--pur-dark);font-size:0.7rem;font-weight:800;letter-spacing:0.05em;">+12.000 mulheres já transformaram o corpo</span></div>
+    <h1 class="headline" style="font-size:2rem;line-height:1.2;color:var(--dark);margin-bottom:12px;">A Gelatina Noturna que<br><span class="pur-text">Derrete Gordura</span><br>Enquanto Você Dorme</h1>
+    <p style="font-size:0.87rem;color:var(--text-muted);line-height:1.65;margin-bottom:20px;">O Desafio de 28 dias.<br><span style="font-size:0.8rem;color:#B0A0CC;">Sem academia · Sem fome · Sem efeito sanfona</span></p>
+    <div style="width:100%;border-radius:20px;overflow:hidden;margin-bottom:24px;box-shadow:0 8px 32px rgba(109,40,217,0.2);"><img src="https://i.ibb.co/zWTZvy4h/Chat-GPT-Image-22-de-mai-de-2026-02-07-15.png" alt="Gelatina Noturna BariSlim" style="width:100%;display:block;" onerror="this.style.display='none'"></div>
+    <div class="glp-pill" style="width:100%;text-align:left;"><span style="font-size:1.4rem;line-height:1;">🍋</span><div><p style="font-size:0.84rem;font-weight:800;color:var(--grn-dark);margin-bottom:2px;">Ativa o GLP-1 Naturalmente!</p><p style="font-size:0.78rem;color:#166534;line-height:1.4;">Receita caseira que ativa o GLP-1, o mesmo hormônio do Mounjaro, de forma 100% natural!</p></div></div>
+    <div style="width:100%;display:flex;flex-direction:column;gap:10px;margin-bottom:28px;">
+      <div style="display:flex;align-items:center;gap:14px;background:white;border:1px solid #EDE9FE;border-radius:16px;padding:14px 16px;box-shadow:0 2px 10px rgba(59,7,100,0.05);text-align:left;"><div style="width:44px;height:44px;border-radius:12px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;">🌙</div><div><p style="font-size:0.88rem;font-weight:800;color:var(--dark);margin-bottom:2px;">Ação Noturna Poderosa</p><p style="font-size:0.76rem;color:var(--text-muted);line-height:1.4;">Ativa o hormônio GH durante o sono para queimar gordura.</p></div></div>
+      <div style="display:flex;align-items:center;gap:14px;background:white;border:1px solid #EDE9FE;border-radius:16px;padding:14px 16px;box-shadow:0 2px 10px rgba(59,7,100,0.05);text-align:left;"><div style="width:44px;height:44px;border-radius:12px;background:#F0FDF4;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;">🍫</div><div><p style="font-size:0.88rem;font-weight:800;color:var(--dark);margin-bottom:2px;">Fim da Compulsão por Doces</p><p style="font-size:0.76rem;color:var(--text-muted);line-height:1.4;">Regula o cortisol e elimina a ansiedade noturna por açúcar.</p></div></div>
+      <div style="display:flex;align-items:center;gap:14px;background:white;border:1px solid #EDE9FE;border-radius:16px;padding:14px 16px;box-shadow:0 2px 10px rgba(59,7,100,0.05);text-align:left;"><div style="width:44px;height:44px;border-radius:12px;background:var(--grn-pale);display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;">⚡</div><div><p style="font-size:0.88rem;font-weight:800;color:var(--dark);margin-bottom:2px;">Metabolismo Acelerado</p><p style="font-size:0.76rem;color:var(--text-muted);line-height:1.4;">Até 4kg por semana sem dieta restritiva ou exercícios.</p></div></div>
+    </div>
+    <button onclick="goTo('sq-age')" class="btn-main" style="font-size:0.95rem;margin-bottom:10px;">COMEÇAR DIAGNÓSTICO GRATUITO →</button>
+    <p style="font-size:0.7rem;color:var(--text-muted);margin-bottom:32px;">🔒 Privado · Gratuito · 2 minutos</p>
+  </div>
+</div>
+
+<!-- ===== AGE ===== -->
+<div id="sq-age" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 1 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">6%</span></div><div class="prog-track"><div class="prog-fill" style="width:6%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">🎂</div><h2 class="headline" style="font-size:1.3rem;color:var(--dark);">Qual é a sua <span class="pur-text">faixa etária?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:18px;">Nos ajuda a calibrar o protocolo para o seu metabolismo atual.</p>
+  <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:20px;">
+    <div class="q-option" onclick="pickSingle(this,'age','lt30','sq-body')"><div class="emoji-pill">🌱</div><div class="q-check">✓</div><span>Menos de 30 anos</span></div>
+    <div class="q-option" onclick="pickSingle(this,'age','30-45','sq-body')"><div class="emoji-pill">🌿</div><div class="q-check">✓</div><span>Entre 30 e 45 anos</span></div>
+    <div class="q-option" onclick="pickSingle(this,'age','gt45','sq-body')"><div class="emoji-pill">🍃</div><div class="q-check">✓</div><span>Mais de 45 anos</span></div>
+  </div>
+  <div class="depo-mini"><img src="https://i.ibb.co/bjCCx4Y4/before-after-DGFGODi5.webp" alt="resultado" onerror="this.style.display='none'"><div><div class="stars" style="margin-bottom:4px;">★★★★★</div><p style="font-size:0.78rem;color:var(--text-med);line-height:1.5;">"Perdi <strong>9kg em 28 dias</strong> com a Gelatina Mounjaro. Simplesmente incrível!"</p></div></div>
+</div>
+
+<!-- ===== BODY TYPE ===== -->
+<div id="sq-body" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 2 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">11%</span></div><div class="prog-track"><div class="prog-fill" style="width:11%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">👙</div><h2 class="headline" style="font-size:1.3rem;color:var(--dark);">Qual é o seu <span class="pur-text">tipo de corpo?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:18px;">Selecione o que mais se aproxima do seu corpo atual.</p>
+  <div class="body-grid">
+    <div class="body-card" onclick="pickBodyCard(this,'bodytype','medium','sq-goals')"><img src="https://i.ibb.co/wFzv0m3K/f51b250c-acda-449a-9dcf-dfb8eaaa7931.jpg" alt="Corpo Médio" onerror="this.style.background='#EDE9FE';this.style.height='120px'"><div class="body-card-label">Corpo Médio</div></div>
+    <div class="body-card" onclick="pickBodyCard(this,'bodytype','plus','sq-goals')"><img src="https://i.ibb.co/Pz91244g/6bbea73c-8eaa-4461-9782-5b87fc9cf185.jpg" alt="Plus Size" onerror="this.style.background='#EDE9FE';this.style.height='120px'"><div class="body-card-label">Plus Size</div></div>
+    <div class="body-card" onclick="pickBodyCard(this,'bodytype','overweight','sq-goals')"><img src="https://i.ibb.co/v4V3G1mV/d90823c5-5e22-46a1-8583-f2c9de5a7133.jpg" alt="Sobrepeso" onerror="this.style.background='#EDE9FE';this.style.height='120px'"><div class="body-card-label">Sobrepeso</div></div>
+    <div class="body-card" onclick="pickBodyCard(this,'bodytype','postpartum','sq-goals')"><img src="https://i.ibb.co/FkZ4LrHV/2c1762ca-7d3e-4498-b7a4-899a43939708.jpg" alt="Pós-Parto" onerror="this.style.background='#EDE9FE';this.style.height='120px'"><div class="body-card-label">Pós-Parto</div></div>
+  </div>
+</div>
+
+<!-- ===== GOALS ===== -->
+<div id="sq-goals" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 3 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">17%</span></div><div class="prog-track"><div class="prog-fill" style="width:17%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">🎯</div><h2 class="headline" style="font-size:1.3rem;color:var(--dark);">Qual é o objetivo com <span class="pur-text">seu corpo?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:18px;">Pode marcar várias!</p>
+  <div>
+    <div class="goal-item" onclick="toggleGoal(this,'goal_weight')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">🔥 Perder peso rapidamente</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'goal_belly')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">🎯 Queimar gordura abdominal</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'goal_bloat')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">💧 Reduzir inchaço e retenção de líquidos</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'goal_metab')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">⚡ Acelerar o metabolismo naturalmente</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'goal_compuls')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">🍫 Eliminar a compulsão alimentar</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'goal_self')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">💖 Melhorar a autoestima e confiança</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'goal_health')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">🏥 Reduzir o risco de doenças</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'goal_chol')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">💊 Redução nos níveis de colesterol</span></div>
+  </div>
+  <div style="margin-top:16px;margin-bottom:20px;"><button class="btn-main" onclick="goTo('sq-areas')">CONTINUAR →</button></div>
+</div>
+
+<!-- ===== FAT AREAS ===== -->
+<div id="sq-areas" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 4 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">22%</span></div><div class="prog-track"><div class="prog-fill" style="width:22%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">🎯</div><h2 class="headline" style="font-size:1.3rem;color:var(--dark);">Onde você quer <span class="pur-text">perder gordura?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:16px;">Pode selecionar várias.</p>
+  <div class="area-layout">
+    <div class="area-img"><img src="https://i.ibb.co/1J9B5PNn/Chat-GPT-Image-22-de-mai-de-2026-02-32-41.png" alt="Corpo" onerror="this.style.display='none'"></div>
+    <div class="area-pills">
+      <div class="area-pill" onclick="toggleArea(this,'area_papada')">😊 Papada</div>
+      <div class="area-pill" onclick="toggleArea(this,'area_arms')">💪 Braços</div>
+      <div class="area-pill" onclick="toggleArea(this,'area_belly')">🎯 Barriga</div>
+      <div class="area-pill" onclick="toggleArea(this,'area_waist')">✨ Cintura</div>
+      <div class="area-pill" onclick="toggleArea(this,'area_glutes')">🍑 Glúteos</div>
+      <div class="area-pill" onclick="toggleArea(this,'area_thighs')">🦵 Coxas</div>
+      <div class="area-pill" onclick="toggleArea(this,'area_all')">✨ Corpo Todo</div>
+    </div>
+  </div>
+  <div style="margin-top:16px;margin-bottom:12px;"><button class="btn-main" onclick="goTo('sq-celeb')">CONTINUAR →</button></div>
+  <div class="depo-mini"><img src="https://i.ibb.co/hFH7c32G/Captura-de-tela-2026-05-22-020949.png" alt="resultado" onerror="this.style.display='none'"><div><div class="stars" style="margin-bottom:4px;">★★★★★</div><p style="font-size:0.78rem;color:var(--text-med);line-height:1.5;">"A barriga desapareceu! Perdi <strong>11cm de cintura</strong> em apenas 4 semanas!"</p></div></div>
+</div>
+
+<!-- ===== CELEBRITIES ===== -->
+<div id="sq-celeb" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="text-align:center;margin-bottom:16px;"><div class="celeb-badge">🌟 Tendência Viral</div><h2 class="headline" style="font-size:1.5rem;color:var(--dark);margin-bottom:6px;">Sim, até as famosas <span class="grn-text">estão usando!</span></h2><p style="font-size:0.84rem;color:var(--text-muted);line-height:1.6;">A Gelatina Mounjaro é tendência entre celebridades e influenciadoras.</p></div>
+  <div style="border-radius:16px;overflow:hidden;margin-bottom:16px;box-shadow:0 4px 20px rgba(109,40,217,0.15);"><img src="https://i.ibb.co/mrrvrL8j/depoimento-simone-C1-Zb-B8n-C.png" alt="Depoimento celebridade" style="width:100%;display:block;" onerror="this.style.display='none'"></div>
+  <div class="glp-pill"><span style="font-size:1.4rem;line-height:1;">🍋</span><div><p style="font-size:0.84rem;font-weight:800;color:var(--grn-dark);margin-bottom:2px;">O Segredo do GLP-1 Natural</p><p style="font-size:0.78rem;color:#166534;line-height:1.4;">A receita ativa o GLP-1, o mesmo hormônio do Mounjaro e Ozempic, mas de forma 100% natural e sem efeitos colaterais.</p></div></div>
+  <button onclick="goTo('sq-name')" class="btn-main" style="margin-bottom:20px;">CONTINUAR →</button>
+</div>
+
+<!-- ===== NAME ===== -->
+<div id="sq-name" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div class="card" style="border:1px solid #DDD6FE;padding:24px;margin-bottom:16px;">
+    <div style="text-align:center;font-size:2rem;margin-bottom:12px;">👋</div>
+    <h2 class="headline" style="font-size:1.4rem;text-align:center;margin-bottom:8px;color:var(--dark);">Qual é o seu <span class="pur-text">nome?</span></h2>
+    <p style="text-align:center;font-size:0.83rem;color:var(--text-muted);margin-bottom:20px;">Vamos personalizar seu protocolo com seu nome.</p>
+    <input type="text" id="inp-nome" class="field" placeholder="Digite seu primeiro nome..." style="margin-bottom:14px;">
+    <button class="btn-main" onclick="saveName()">CONTINUAR →</button>
+  </div>
+</div>
+
+<!-- ===== IMPACT ===== -->
+<div id="sq-impact" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 6 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">33%</span></div><div class="prog-track"><div class="prog-fill" style="width:33%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">💔</div><h2 class="headline" style="font-size:1.25rem;color:var(--dark);"><span id="nm-impact" class="pur-text">Você</span>, como o peso<br>afeta sua vida?</h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:16px;">Entender isso nos ajuda a criar seu protocolo ideal.</p>
+  <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:20px;">
+    <div class="q-option" onclick="pickSingle(this,'impact','selfesteem','sq-happy')"><div style="width:42px;height:42px;border-radius:12px;background:#FDF4FF;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;">💔</div><div class="q-check">✓</div><div><p style="font-size:0.88rem;font-weight:800;margin-bottom:2px;">Afeta minha autoestima</p><p style="font-size:0.74rem;color:var(--text-muted);">Me sinto insegura com meu corpo</p></div></div>
+    <div class="q-option" onclick="pickSingle(this,'impact','health','sq-happy')"><div style="width:42px;height:42px;border-radius:12px;background:#EFF6FF;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;">🏥</div><div class="q-check">✓</div><div><p style="font-size:0.88rem;font-weight:800;margin-bottom:2px;">Afeta minha saúde</p><p style="font-size:0.74rem;color:var(--text-muted);">Sinto cansaço, dores e falta de energia</p></div></div>
+    <div class="q-option" onclick="pickSingle(this,'impact','social','sq-happy')"><div style="width:42px;height:42px;border-radius:12px;background:#F0FDF4;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;">👥</div><div class="q-check">✓</div><div><p style="font-size:0.88rem;font-weight:800;margin-bottom:2px;">Afeta meus relacionamentos</p><p style="font-size:0.74rem;color:var(--text-muted);">Evito encontros e situações sociais</p></div></div>
+    <div class="q-option" onclick="pickSingle(this,'impact','routine','sq-happy')"><div style="width:42px;height:42px;border-radius:12px;background:#FFF7ED;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;">🚀</div><div class="q-check">✓</div><div><p style="font-size:0.88rem;font-weight:800;margin-bottom:2px;">Afeta minha rotina</p><p style="font-size:0.74rem;color:var(--text-muted);">Dificuldade em fazer tarefas simples</p></div></div>
+  </div>
+</div>
+
+<!-- ===== HAPPY ===== -->
+<div id="sq-happy" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 7 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">39%</span></div><div class="prog-track"><div class="prog-fill" style="width:39%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">😊</div><h2 class="headline" style="font-size:1.25rem;color:var(--dark);">Você está feliz com sua <span class="pur-text">aparência atual?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:16px;">Seja sincera consigo mesma.</p>
+  <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px;">
+    <div class="q-option" onclick="pickSingle(this,'happy','no','sq-barriers')"><div class="emoji-pill" style="font-size:1.3rem;">😢</div><div class="q-check">✓</div><span>Não estou feliz</span></div>
+    <div class="q-option" onclick="pickSingle(this,'happy','medium','sq-barriers')"><div class="emoji-pill" style="font-size:1.3rem;">😐</div><div class="q-check">✓</div><span>Poderia ser melhor</span></div>
+    <div class="q-option" onclick="pickSingle(this,'happy','working','sq-barriers')"><div class="emoji-pill" style="font-size:1.3rem;">💪</div><div class="q-check">✓</div><span>Estou trabalhando nisso</span></div>
+  </div>
+</div>
+
+<!-- ===== BARRIERS ===== -->
+<div id="sq-barriers" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 8 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">44%</span></div><div class="prog-track"><div class="prog-fill" style="width:44%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">🚧</div><h2 class="headline" style="font-size:1.25rem;color:var(--dark);">O que te <span class="pur-text">impede de emagrecer?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:16px;">Selecione todas as barreiras.</p>
+  <div style="margin-bottom:20px;">
+    <div class="goal-item" onclick="toggleGoal(this,'bar_time')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">⏰ Falta de Tempo</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'bar_control')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">💎 Falta de Autocontrole</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'bar_money')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">💰 Questões Financeiras</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'bar_consist')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">📂 Falta de Consistência</span></div>
+  </div>
+  <button class="btn-main" onclick="goTo('sq-dreams')" style="margin-bottom:12px;">CONTINUAR →</button>
+  <div class="depo-mini"><img src="https://i.ibb.co/Kz9Qrx4F/Captura-de-tela-2026-05-22-020941.png" alt="resultado" onerror="this.style.display='none'"><div><div class="stars" style="margin-bottom:4px;">★★★★★</div><p style="font-size:0.78rem;color:var(--text-med);line-height:1.5;">"Sem tempo pra academia. Com a Gelatina Mounjaro perdi <strong>7kg sem sair de casa!</strong>"</p></div></div>
+</div>
+
+<!-- ===== DREAMS ===== -->
+<div id="sq-dreams" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 9 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">50%</span></div><div class="prog-track"><div class="prog-fill" style="width:50%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">⭐</div><h2 class="headline" style="font-size:1.25rem;color:var(--dark);">O que você quer <span class="pur-text">conquistar?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:16px;">Selecione seus maiores objetivos.</p>
+  <div style="margin-bottom:20px;">
+    <div class="goal-item" onclick="toggleGoal(this,'dr_energy')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">⚡ Ter mais energia</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'dr_clothes')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">👗 Usar roupas que amo</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'dr_self')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">💖 Melhorar autoestima</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'dr_health')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">💪 Ter mais saúde</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'dr_light')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">🦋 Me sentir mais leve</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'dr_praise')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">🌟 Receber elogios</span></div>
+  </div>
+  <button class="btn-main" onclick="goTo('sq-compare')" style="margin-bottom:20px;">CONTINUAR →</button>
+</div>
+
+<!-- ===== COMPARATIVO ===== -->
+<div id="sq-compare" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div class="card" style="border:1px solid #DDD6FE;padding:20px;margin-bottom:16px;">
+    <p style="text-align:center;font-size:0.7rem;font-weight:800;color:var(--pur);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">✦ Análise Comparativa ✦</p>
+    <h2 class="headline" style="font-size:1.45rem;color:var(--dark);text-align:center;margin-bottom:6px;">Por que o BariSlim 28D é a<br><span class="pur-text">escolha mais segura?</span></h2>
+    <p style="text-align:center;font-size:0.83rem;color:var(--text-muted);margin-bottom:16px;">Veja os dados antes de continuar.</p>
+    <div class="glp-pill"><span style="font-size:1.4rem;">🍋</span><div><p style="font-size:0.82rem;font-weight:800;color:var(--grn-dark);margin-bottom:2px;">Ativa o GLP-1 — o hormônio do Mounjaro!</p><p style="font-size:0.76rem;color:#166534;line-height:1.4;">Receita caseira que ativa o GLP-1 de forma 100% natural e segura.</p></div></div>
+    <p style="font-size:0.75rem;font-weight:800;color:var(--dark);margin-bottom:10px;text-transform:uppercase;letter-spacing:0.05em;">📉 Perda de Peso em 28 Dias</p>
+    <div class="chart-bar-wrap"><div class="chart-label"><span style="color:var(--pur-dark);">BariSlim 28D</span><span style="color:var(--pur-dark);">Até -12 kg</span></div><div class="chart-track"><div class="chart-fill fill-pur pulse-anim" id="bar1a" style="width:0%;">🍮 BariSlim 28D</div></div></div>
+    <div class="chart-bar-wrap"><div class="chart-label"><span style="color:#718096;">Remédios convencionais</span><span style="color:#718096;">Até -4 kg</span></div><div class="chart-track"><div class="chart-fill fill-gray" id="bar1b" style="width:0%;">💊 Remédios</div></div></div>
+    <div class="chart-bar-wrap"><div class="chart-label"><span style="color:#E53E3E;">Dieta restritiva</span><span style="color:#E53E3E;">Até -2 kg</span></div><div class="chart-track"><div class="chart-fill fill-red" id="bar1c" style="width:0%;">🥗 Dieta</div></div></div>
+    <div class="div-pur"></div>
+    <p style="font-size:0.75rem;font-weight:800;color:var(--dark);margin-bottom:10px;text-transform:uppercase;letter-spacing:0.05em;">⚡ Risco de Efeitos Colaterais</p>
+    <div class="chart-bar-wrap"><div class="chart-label"><span style="color:var(--grn-dark);">BariSlim 28D</span><span style="color:var(--grn-dark);">0% — Nenhum</span></div><div class="chart-track"><div class="chart-fill fill-grn pulse-anim" id="bar2a" style="width:0%;">✅ Zero risco</div></div></div>
+    <div class="chart-bar-wrap"><div class="chart-label"><span style="color:#E53E3E;">Remédios (Mounjaro, etc…)</span><span style="color:#E53E3E;">78% com efeitos</span></div><div class="chart-track"><div class="chart-fill fill-red" id="bar2b" style="width:0%;">⚠️ Alto risco</div></div></div>
+    <div class="div-pur"></div>
+    <p style="font-size:0.75rem;font-weight:800;color:var(--dark);margin-bottom:10px;text-transform:uppercase;letter-spacing:0.05em;">🔒 Manutenção do Resultado (3 meses)</p>
+    <div class="chart-bar-wrap"><div class="chart-label"><span style="color:var(--pur-dark);">BariSlim 28D</span><span style="color:var(--pur-dark);">92% mantêm</span></div><div class="chart-track"><div class="chart-fill fill-pur pulse-anim" id="bar3a" style="width:0%;">💜 92% mantêm</div></div></div>
+    <div class="chart-bar-wrap"><div class="chart-label"><span style="color:#718096;">Remédios</span><span style="color:#718096;">13% mantêm</span></div><div class="chart-track"><div class="chart-fill fill-gray" id="bar3b" style="width:0%;">⬇️ 13%</div></div></div>
+  </div>
+  <button onclick="goTo('sq-height')" class="btn-main" style="margin-bottom:20px;">AVANÇAR PARA ANÁLISE PERSONALIZADA →</button>
+</div>
+
+<!-- ===== HEIGHT + WEIGHT ===== -->
+<div id="sq-height" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 10 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">56%</span></div><div class="prog-track"><div class="prog-fill" style="width:56%"></div></div></div>
+  <div class="card" style="border:1px solid #DDD6FE;padding:22px;margin-bottom:14px;">
+    <h2 class="headline" style="font-size:1.4rem;text-align:center;margin-bottom:6px;color:var(--dark);">Vamos calcular sua<br><span class="pur-text">projeção personalizada</span></h2>
+    <p style="text-align:center;font-size:0.83rem;color:var(--text-muted);margin-bottom:20px;">Dados usados apenas para gerar seu diagnóstico. 100% privado.</p>
+    <div style="display:flex;flex-direction:column;gap:14px;margin-bottom:18px;">
+      <div><label style="display:block;font-size:0.82rem;font-weight:800;color:var(--pur-dark);margin-bottom:6px;">📏 Altura (cm)</label><input id="inp-altura" type="number" step="1" min="120" max="220" placeholder="Ex: 165" class="field"></div>
+      <div><label style="display:block;font-size:0.82rem;font-weight:800;color:var(--pur-dark);margin-bottom:6px;">⚖️ Peso atual (kg)</label><input id="inp-peso" type="number" step="0.1" min="40" max="300" placeholder="Ex: 75" class="field"></div>
+    </div>
+    <p id="imc-err" class="hidden" style="color:var(--red);font-size:0.83rem;text-align:center;margin-bottom:12px;font-weight:700;">⚠️ Preencha altura (cm) e peso corretamente.</p>
+    <button onclick="goToTargetWeight()" class="btn-main">CONTINUAR →</button>
+    <p style="text-align:center;font-size:0.7rem;color:var(--text-muted);margin-top:8px;">🔒 Seus dados são privados e jamais compartilhados.</p>
+  </div>
+</div>
+
+<!-- ===== TARGET WEIGHT ===== -->
+<div id="sq-targetw" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 11 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">61%</span></div><div class="prog-track"><div class="prog-fill" style="width:61%"></div></div></div>
+  <div class="card" style="border:1px solid #DDD6FE;padding:22px;margin-bottom:14px;">
+    <h2 class="headline" style="font-size:1.4rem;text-align:center;margin-bottom:6px;color:var(--dark);">Qual seu <span class="pur-text">peso desejado?</span></h2>
+    <p style="text-align:center;font-size:0.83rem;color:var(--text-muted);margin-bottom:20px;">Informe sua meta de peso ideal.</p>
+    <div style="margin-bottom:18px;"><label style="display:block;font-size:0.82rem;font-weight:800;color:var(--pur-dark);margin-bottom:6px;">🎯 Peso desejado (kg)</label><input id="inp-meta" type="number" step="0.5" min="40" max="200" placeholder="Ex: 62" class="field"></div>
+    <p id="meta-err" class="hidden" style="color:var(--red);font-size:0.83rem;text-align:center;margin-bottom:12px;font-weight:700;">⚠️ Informe um peso desejado válido.</p>
+    <button onclick="showTargetAnalysis()" class="btn-main">VER MINHA ANÁLISE →</button>
+  </div>
+  <div id="target-analysis" class="hidden card" style="border:2px solid var(--grn);padding:20px;margin-bottom:20px;background:var(--grn-pale);">
+    <div style="text-align:center;font-size:2rem;margin-bottom:8px;">🎉</div>
+    <h3 class="headline" style="font-size:1.2rem;color:var(--grn-dark);text-align:center;margin-bottom:8px;">Você <em>vai conseguir!</em></h3>
+    <p id="target-analysis-text" style="font-size:0.84rem;color:#166534;line-height:1.65;text-align:center;margin-bottom:16px;"></p>
+    <div style="background:white;border-radius:12px;padding:12px;border:1px solid var(--grn-light);margin-bottom:16px;"><div style="display:flex;justify-content:space-around;text-align:center;"><div><p style="font-size:0.7rem;color:var(--text-muted);font-weight:700;margin-bottom:4px;">PESO ATUAL</p><p id="tw-current" style="font-family:'Fraunces',serif;font-size:1.4rem;color:var(--pur-dark);font-weight:900;"></p></div><div style="display:flex;align-items:center;font-size:1.4rem;">→</div><div><p style="font-size:0.7rem;color:var(--text-muted);font-weight:700;margin-bottom:4px;">META</p><p id="tw-goal" style="font-family:'Fraunces',serif;font-size:1.4rem;color:var(--grn-dark);font-weight:900;"></p></div><div style="display:flex;align-items:center;font-size:1.4rem;">→</div><div><p style="font-size:0.7rem;color:var(--text-muted);font-weight:700;margin-bottom:4px;">DIFF</p><p id="tw-diff" style="font-family:'Fraunces',serif;font-size:1.4rem;color:var(--grn-dark);font-weight:900;"></p></div></div></div>
+    <button class="btn-grn" onclick="goTo('sq-pregnancies')">CONTINUAR O QUESTIONÁRIO →</button>
+  </div>
+</div>
+
+<!-- ===== PREGNANCIES ===== -->
+<div id="sq-pregnancies" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 12 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">67%</span></div><div class="prog-track"><div class="prog-fill" style="width:67%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">🤰</div><h2 class="headline" style="font-size:1.25rem;color:var(--dark);">Quantas gestações <span class="pur-text">você já teve?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:16px;">Isso ajuda a personalizar seu plano.</p>
+  <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:20px;">
+    <div class="q-option" onclick="pickSingle(this,'preg','0','sq-routine')"><div class="emoji-pill">🚫</div><div class="q-check">✓</div><span>Nunca estive grávida</span></div>
+    <div class="q-option" onclick="pickSingle(this,'preg','1','sq-routine')"><div class="emoji-pill">1️⃣</div><div class="q-check">✓</div><span>1 gestação</span></div>
+    <div class="q-option" onclick="pickSingle(this,'preg','2','sq-routine')"><div class="emoji-pill">2️⃣</div><div class="q-check">✓</div><span>2 gestações</span></div>
+    <div class="q-option" onclick="pickSingle(this,'preg','3+','sq-routine')"><div class="emoji-pill">3️⃣</div><div class="q-check">✓</div><span>3 ou mais gestações</span></div>
+  </div>
+</div>
+
+<!-- ===== ROUTINE ===== -->
+<div id="sq-routine" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 13 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">72%</span></div><div class="prog-track"><div class="prog-fill" style="width:72%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">🗓️</div><h2 class="headline" style="font-size:1.25rem;color:var(--dark);">Como é sua <span class="pur-text">rotina diária?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:16px;">Selecione todas as que se encaixam.</p>
+  <div style="margin-bottom:20px;">
+    <div class="goal-item" onclick="toggleGoal(this,'rot_office')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">🏢 Trabalho fora de casa</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'rot_home')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">🏠 Trabalho em home office</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'rot_family')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">👪 Cuido de casa/família</span></div>
+    <div class="goal-item" onclick="toggleGoal(this,'rot_study')"><div class="goal-check">✓</div><span style="font-size:0.88rem;font-weight:700;">📚 Estudo</span></div>
+  </div>
+  <button class="btn-main" onclick="goTo('sq-sleep')" style="margin-bottom:20px;">CONTINUAR →</button>
+</div>
+
+<!-- ===== SLEEP ===== -->
+<div id="sq-sleep" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 14 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">78%</span></div><div class="prog-track"><div class="prog-fill" style="width:78%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">🌙</div><h2 class="headline" style="font-size:1.25rem;color:var(--dark);">Quantas horas você<br><span class="pur-text">dorme por noite?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:16px;">O sono é essencial para o emagrecimento.</p>
+  <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:20px;">
+    <div class="q-option" onclick="pickSingle(this,'sleep','lt5','sq-water')"><div class="emoji-pill">😴</div><div class="q-check">✓</div><span>Menos de 5 horas</span></div>
+    <div class="q-option" onclick="pickSingle(this,'sleep','5-7','sq-water')"><div class="emoji-pill">🛌</div><div class="q-check">✓</div><span>5 a 7 horas</span></div>
+    <div class="q-option" onclick="pickSingle(this,'sleep','7-9','sq-water')"><div class="emoji-pill">😊</div><div class="q-check">✓</div><span>7 a 9 horas</span></div>
+    <div class="q-option" onclick="pickSingle(this,'sleep','gt9','sq-water')"><div class="emoji-pill">💤</div><div class="q-check">✓</div><span>Mais de 9 horas</span></div>
+  </div>
+</div>
+
+<!-- ===== WATER ===== -->
+<div id="sq-water" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Pergunta 15 de 18</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">83%</span></div><div class="prog-track"><div class="prog-fill" style="width:83%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">💧</div><h2 class="headline" style="font-size:1.25rem;color:var(--dark);">Quanta água você<br><span class="pur-text">bebe por dia?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:16px;">A hidratação acelera resultados.</p>
+  <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:20px;">
+    <div class="q-option" onclick="pickSingle(this,'water','none','sq-loading')"><div class="emoji-pill">🏜️</div><div class="q-check">✓</div><span>Quase nada</span></div>
+    <div class="q-option" onclick="pickSingle(this,'water','lt1','sq-loading')"><div class="emoji-pill">💧</div><div class="q-check">✓</div><span>Menos de 1 litro</span></div>
+    <div class="q-option" onclick="pickSingle(this,'water','1-2','sq-loading')"><div class="emoji-pill">🌊</div><div class="q-check">✓</div><span>1 a 2 litros</span></div>
+    <div class="q-option" onclick="pickSingle(this,'water','gt2','sq-loading')"><div class="emoji-pill">🏊</div><div class="q-check">✓</div><span>Mais de 2 litros</span></div>
+  </div>
+</div>
+
+<!-- ===== LOADING ===== -->
+<div id="sq-loading" class="screen hidden" style="padding:20px 16px 0;text-align:center;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div class="card" style="border:1px solid #DDD6FE;padding:24px;margin-bottom:16px;">
+    <p style="font-size:0.72rem;font-weight:800;color:var(--pur);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px;">⚙️ Processando</p>
+    <h2 class="headline" style="font-size:1.4rem;margin-bottom:16px;color:var(--dark);">Gerando seu relatório<br><span class="pur-text">personalizado...</span></h2>
+    <div style="background:#EDE9FE;border-radius:99px;height:10px;margin-bottom:8px;overflow:hidden;"><div id="load-bar" class="load-bar-fill"></div></div>
+    <p id="load-txt" class="blink" style="font-size:0.83rem;color:var(--pur-dark);font-weight:700;">Iniciando análise...</p>
+  </div>
+  <p style="font-size:0.85rem;font-weight:800;color:var(--dark);margin-bottom:12px;">🌟 Veja quem já transformou o corpo<br><span class="pur-text">enquanto seu relatório é gerado...</span></p>
+  <div style="margin-bottom:20px;">
+    <div class="carousel-wrap"><div class="carousel-slides" id="carousel-slides">
+      <div class="carousel-slide"><img src="https://i.ibb.co/bjCCx4Y4/before-after-DGFGODi5.webp" alt="R1" style="width:100%;border-radius:16px;" onerror="this.style.background='#EDE9FE';this.style.height='200px'"></div>
+      <div class="carousel-slide"><img src="https://i.ibb.co/N6N2N4Rz/Captura-de-tela-2026-05-22-020956.png" alt="R2" style="width:100%;border-radius:16px;" onerror="this.style.background='#EDE9FE';this.style.height='200px'"></div>
+      <div class="carousel-slide"><img src="https://i.ibb.co/hFH7c32G/Captura-de-tela-2026-05-22-020949.png" alt="R3" style="width:100%;border-radius:16px;" onerror="this.style.background='#EDE9FE';this.style.height='200px'"></div>
+      <div class="carousel-slide"><img src="https://i.ibb.co/Kz9Qrx4F/Captura-de-tela-2026-05-22-020941.png" alt="R4" style="width:100%;border-radius:16px;" onerror="this.style.background='#EDE9FE';this.style.height='200px'"></div>
+    </div></div>
+    <div class="carousel-dots" id="carousel-dots"><div class="carousel-dot active"></div><div class="carousel-dot"></div><div class="carousel-dot"></div><div class="carousel-dot"></div></div>
+    <div class="testi-card" style="text-align:left;"><div class="stars" style="margin-bottom:6px;">★★★★★</div><p id="cap-text" style="font-size:0.83rem;color:var(--text-med);line-height:1.6;margin-bottom:4px;"></p></div>
+  </div>
+</div>
+
+<!-- ===== COMMITMENT ===== -->
+<div id="sq-commit" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="border-radius:16px;overflow:hidden;margin-bottom:16px;box-shadow:0 4px 20px rgba(109,40,217,0.12);"><img src="https://i.ibb.co/wrsqHQn2/Chat-GPT-Image-22-de-mai-de-2026-02-55-36.png" alt="Protocolo" style="width:100%;display:block;" onerror="this.style.display='none'"></div>
+  <div style="background:linear-gradient(135deg,var(--pur-deep),#4C1D95);border-radius:20px;padding:24px 20px;margin-bottom:20px;text-align:center;">
+    <p style="font-size:0.68rem;font-weight:800;color:rgba(196,181,253,0.7);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:10px;">🔒 Para liberar seu plano</p>
+    <h2 class="headline" style="font-size:1.25rem;color:white;line-height:1.45;margin-bottom:14px;">Você se compromete a aplicar o protocolo por pelo menos</h2>
+    <div style="background:rgba(196,181,253,0.15);border:2px solid rgba(196,181,253,0.35);border-radius:14px;padding:14px 20px;margin-bottom:14px;display:inline-block;"><span style="font-family:'Fraunces',serif;font-size:2.4rem;color:#C4B5FD;font-weight:900;display:block;line-height:1;">1 semana</span></div>
+    <p style="font-size:0.9rem;color:rgba(255,255,255,0.8);line-height:1.5;">para poder ver os resultados?</p>
+  </div>
+  <div style="margin-bottom:20px;">
+    <div class="commit-opt" onclick="pickCommit(this,'yes')"><div style="font-size:2rem;margin-bottom:4px;">😍</div><p style="font-size:0.9rem;font-weight:800;color:var(--dark);">Sim me comprometo!</p></div>
+    <div class="commit-opt" onclick="pickCommit(this,'today')"><div style="font-size:2rem;margin-bottom:4px;">😎</div><p style="font-size:0.9rem;font-weight:800;color:var(--dark);">Quero começar hoje</p></div>
+    <div class="commit-opt" onclick="pickCommit(this,'unsure')"><div style="font-size:2rem;margin-bottom:4px;">🥺</div><p style="font-size:0.9rem;font-weight:800;color:var(--dark);">Não sei...</p></div>
+  </div>
+</div>
+
+<!-- ===== VIDEO 1 ===== -->
+<div id="sq-video1" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="text-align:center;margin-bottom:16px;"><h2 class="headline" style="font-size:1.4rem;color:var(--dark);margin-bottom:8px;">Assista ao vídeo de <span class="pur-text">1 Minuto</span> e entenda por que esse método está chamando atenção 👀</h2></div>
+  <div id="vturb1-container" class="vturb-container" style="margin-bottom:16px;">
+    <vturb-smartplayer id="vid-6a0fe36c3af54965d468cced" style="display:block;margin:0 auto;width:100%;max-width:400px;"></vturb-smartplayer>
+  </div>
+  <div id="btn-next-video1" style="display:none;margin-bottom:8px;">
+    <button class="btn-main" onclick="advanceVideo1()">CONTINUAR →</button>
+  </div>
+  <p id="video1-hint" style="text-align:center;font-size:0.78rem;color:var(--text-muted);margin-bottom:20px;font-style:italic;">Assista ao vídeo para continuar.</p>
+</div>
+
+<!-- ===== BODY GOAL ===== -->
+<div id="sq-bodydream" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="margin-bottom:18px;"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><span style="font-size:0.7rem;color:var(--text-muted);font-weight:700;">Quase lá!</span><span style="font-size:0.7rem;color:var(--pur);font-weight:800;">94%</span></div><div class="prog-track"><div class="prog-fill" style="width:94%"></div></div></div>
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;"><div class="emoji-pill" style="width:42px;height:42px;font-size:1.3rem;">🏆</div><h2 class="headline" style="font-size:1.25rem;color:var(--dark);">Qual o corpo dos <span class="pur-text">seus sonhos?</span></h2></div>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:18px;">Escolha sua meta.</p>
+  <div class="body-goal-grid" style="margin-bottom:20px;">
+    <div class="body-goal-card" onclick="pickBodyGoal(this,'fit','sq-confirm')"><div style="font-size:2.5rem;margin-bottom:8px;">🏋️</div><p style="font-size:0.88rem;font-weight:800;color:var(--dark);">Em forma e definida</p></div>
+    <div class="body-goal-card" onclick="pickBodyGoal(this,'natural','sq-confirm')"><div style="font-size:2.5rem;margin-bottom:8px;">🌿</div><p style="font-size:0.88rem;font-weight:800;color:var(--dark);">Natural e saudável</p></div>
+  </div>
+</div>
+
+<!-- ===== CONFIRM ===== -->
+<div id="sq-confirm" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="text-align:center;margin-bottom:16px;">
+    <div class="badge-grn" style="margin-bottom:10px;">🎉 Resultado Alcançável!</div>
+    <h2 class="headline" style="font-size:1.45rem;color:var(--dark);margin-bottom:6px;"><span id="nm-confirm" class="pur-text">Você</span>, gostaria de perder entre <span class="grn-text">8 e 12 kilos</span> em poucas semanas?</h2>
+    <p style="font-size:0.83rem;color:var(--text-muted);line-height:1.6;margin-bottom:16px;">Baseado no seu perfil, esse resultado é totalmente alcançável com a Gelatina Mounjaro!</p>
+  </div>
+
+  <!-- Gráfico comparativo -->
+  <div class="card" style="border:1px solid #DDD6FE;padding:18px;margin-bottom:16px;">
+    <p style="font-size:0.72rem;font-weight:800;color:var(--pur);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:4px;text-align:center;">📊 Comparativo de Resultados em 28 Dias</p>
+    <p style="font-size:0.78rem;color:var(--text-muted);text-align:center;margin-bottom:16px;">Veja a diferença entre os caminhos</p>
+
+    <!-- Bar chart visual -->
+    <div style="display:flex;align-items:flex-end;justify-content:center;gap:16px;height:160px;padding:0 8px;margin-bottom:12px;">
+      <!-- Gelatina Mounjaro -->
+      <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;">
+        <div style="width:100%;background:linear-gradient(180deg,#A78BFA,var(--pur-dark));border-radius:10px 10px 0 0;height:140px;display:flex;align-items:flex-start;justify-content:center;padding-top:10px;position:relative;box-shadow:0 4px 16px rgba(109,40,217,0.3);">
+          <span style="color:white;font-weight:900;font-size:1.1rem;">-12kg</span>
+          <div style="position:absolute;top:-28px;left:50%;transform:translateX(-50%);background:var(--pur);border-radius:99px;padding:3px 8px;white-space:nowrap;">
+            <span style="color:white;font-size:0.6rem;font-weight:900;">⭐ MELHOR</span>
+          </div>
+        </div>
+        <span style="font-size:0.65rem;font-weight:800;color:var(--pur-dark);text-align:center;line-height:1.2;">🍮 Gelatina<br>Mounjaro</span>
+      </div>
+      <!-- Outro produto -->
+      <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;">
+        <div style="width:100%;background:linear-gradient(180deg,#A0AEC0,#718096);border-radius:10px 10px 0 0;height:67px;display:flex;align-items:flex-start;justify-content:center;padding-top:10px;">
+          <span style="color:white;font-weight:900;font-size:1rem;">-4kg</span>
+        </div>
+        <span style="font-size:0.65rem;font-weight:800;color:#718096;text-align:center;line-height:1.2;">💊 Outro<br>Produto</span>
+      </div>
+      <!-- Sem nada -->
+      <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;">
+        <div style="width:100%;background:linear-gradient(180deg,#FC8181,#E53E3E);border-radius:10px 10px 0 0;height:20px;display:flex;align-items:flex-start;justify-content:center;padding-top:2px;">
+          <span style="color:white;font-weight:900;font-size:0.65rem;">-1kg</span>
+        </div>
+        <span style="font-size:0.65rem;font-weight:800;color:#E53E3E;text-align:center;line-height:1.2;">😔 Sem<br>Nada</span>
+      </div>
+    </div>
+
+    <!-- Linha base -->
+    <div style="height:2px;background:linear-gradient(90deg,var(--pur-pale),#DDD6FE,var(--pur-pale));border-radius:99px;margin-bottom:14px;"></div>
+
+    <!-- Cards comparativos -->
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
+      <div style="background:linear-gradient(135deg,var(--pur-soft),#EDE9FE);border:2px solid var(--pur);border-radius:12px;padding:10px 8px;text-align:center;">
+        <p style="font-size:1.1rem;margin-bottom:4px;">🍮</p>
+        <p style="font-size:0.62rem;font-weight:900;color:var(--pur-dark);line-height:1.3;">Metabolismo<br>acelerado</p>
+        <p style="font-size:0.65rem;color:var(--grn-dark);font-weight:800;margin-top:4px;">✓ Sono melhor<br>✓ Sem fome</p>
+      </div>
+      <div style="background:#F7FAFC;border:1px solid #CBD5E0;border-radius:12px;padding:10px 8px;text-align:center;">
+        <p style="font-size:1.1rem;margin-bottom:4px;">💊</p>
+        <p style="font-size:0.62rem;font-weight:900;color:#718096;line-height:1.3;">Resultado<br>limitado</p>
+        <p style="font-size:0.65rem;color:#E53E3E;font-weight:800;margin-top:4px;">✗ Efeitos<br>✗ Caro</p>
+      </div>
+      <div style="background:#FFF5F5;border:1px solid #FED7D7;border-radius:12px;padding:10px 8px;text-align:center;">
+        <p style="font-size:1.1rem;margin-bottom:4px;">😔</p>
+        <p style="font-size:0.62rem;font-weight:900;color:#E53E3E;line-height:1.3;">Quase sem<br>resultado</p>
+        <p style="font-size:0.65rem;color:#E53E3E;font-weight:800;margin-top:4px;">✗ Lento<br>✗ Frustrante</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="btn-grn" onclick="goTo('sq-testimonials')" style="margin-bottom:20px;font-size:1rem;">SIM! Quero muito começar! 🔥</button>
+</div>
+
+<!-- ===== TESTIMONIALS ===== -->
+<div id="sq-testimonials" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="text-align:center;margin-bottom:16px;"><h2 class="headline" style="font-size:1.4rem;color:var(--dark);margin-bottom:4px;">Histórias de <span class="pur-text">Transformação</span></h2><p style="font-size:0.84rem;color:var(--text-muted);">Veja quem já transformou o corpo com a Gelatina Mounjaro.</p></div>
+  <div style="margin-bottom:20px;">
+    <div class="carousel-wrap"><div class="carousel-slides" id="testi-slides">
+      <div class="carousel-slide"><img src="https://i.ibb.co/bjCCx4Y4/before-after-DGFGODi5.webp" alt="R1" style="width:100%;border-radius:16px;" onerror="this.style.background='#EDE9FE';this.style.height='200px'"></div>
+      <div class="carousel-slide"><img src="https://i.ibb.co/N6N2N4Rz/Captura-de-tela-2026-05-22-020956.png" alt="R2" style="width:100%;border-radius:16px;" onerror="this.style.background='#EDE9FE';this.style.height='200px'"></div>
+      <div class="carousel-slide"><img src="https://i.ibb.co/hFH7c32G/Captura-de-tela-2026-05-22-020949.png" alt="R3" style="width:100%;border-radius:16px;" onerror="this.style.background='#EDE9FE';this.style.height='200px'"></div>
+      <div class="carousel-slide"><img src="https://i.ibb.co/Kz9Qrx4F/Captura-de-tela-2026-05-22-020941.png" alt="R4" style="width:100%;border-radius:16px;" onerror="this.style.background='#EDE9FE';this.style.height='200px'"></div>
+    </div></div>
+    <div class="carousel-dots" id="testi-dots"><div class="carousel-dot active"></div><div class="carousel-dot"></div><div class="carousel-dot"></div><div class="carousel-dot"></div></div>
+    <div class="testi-card" style="text-align:left;"><div class="stars" style="margin-bottom:6px;">★★★★★</div><p id="tcap-text" style="font-size:0.83rem;color:var(--text-med);line-height:1.6;margin-bottom:6px;"></p><p id="tcap-author" style="font-size:0.75rem;color:var(--pur-dark);font-weight:800;"></p></div>
+  </div>
+  <button class="btn-main" onclick="goTo('sq-video2')" style="margin-bottom:20px;">CONTINUAR →</button>
+</div>
+
+<!-- ===== VIDEO 2 ===== -->
+<div id="sq-video2" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="text-align:center;margin-bottom:16px;">
+    <h2 class="headline" style="font-size:1.35rem;color:var(--dark);margin-bottom:10px;">Assista ao vídeo de 2 minutos e pegue seu Protocolo Personalizado 👀</h2>
+    <div style="background:linear-gradient(135deg,var(--pur-deep),var(--pur));border-radius:12px;padding:12px 18px;margin-bottom:16px;"><p style="color:white;font-size:0.88rem;font-weight:800;">📺 Assista para liberar seu plano completo</p></div>
+  </div>
+  <div id="vturb2-container" class="vturb-container" style="margin-bottom:16px;">
+    <vturb-smartplayer id="vid-6a0ff2b63e6d63af75a9a095" style="display:block;margin:0 auto;width:100%;max-width:400px;"></vturb-smartplayer>
+  </div>
+  <div id="btn-next-video2" style="display:none;margin-bottom:8px;">
+    <button class="btn-main" onclick="advanceVideo2()">VER MEU PLANO PERSONALIZADO →</button>
+  </div>
+  <p id="video2-hint" style="text-align:center;font-size:0.78rem;color:var(--text-muted);margin-bottom:20px;font-style:italic;">Assista ao vídeo para continuar.</p>
+</div>
+
+<!-- ===== PLAN ===== -->
+<div id="sq-plan" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="background:linear-gradient(135deg,var(--grn-dark),#166534);border-radius:16px;padding:18px;text-align:center;margin-bottom:16px;position:relative;overflow:hidden;">
+    <div style="font-size:2rem;margin-bottom:6px;">🎉</div>
+    <p style="color:#86EFAC;font-size:0.72rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px;">PARABÉNS!</p>
+    <h2 class="headline" style="font-size:1.35rem;color:white;margin-bottom:8px;"><span id="nm-plan"></span>, seu</h2>
+    <p style="font-family:'Fraunces',serif;font-size:1.5rem;color:#86EFAC;font-weight:900;margin-bottom:6px;">Plano de 28 dias foi<br>Gerado com Sucesso!</p>
+    <p style="font-size:0.78rem;color:rgba(255,255,255,0.75);line-height:1.5;">Não saia dessa página para não perdê-lo.</p>
+  </div>
+  <div class="card" style="border:1px solid #DDD6FE;padding:20px;margin-bottom:14px;">
+    <p style="font-size:0.75rem;font-weight:800;color:var(--pur);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:4px;">📈 Sua Evolução Esperada</p>
+    <h3 class="headline" style="font-size:1.1rem;color:var(--dark);margin-bottom:16px;">Com o Protocolo Gelatina Mounjaro</h3>
+    <div>
+      <div class="week-row"><div><div class="week-dot"></div></div><div><p style="font-size:0.82rem;font-weight:900;color:var(--pur-dark);margin-bottom:2px;">Semana 1 — Primeiros Desinchaços</p><p style="font-size:0.76rem;color:var(--text-muted);line-height:1.4;">Redução imediata do inchaço. Corpo começa a responder ao protocolo noturno.</p></div></div>
+      <div class="week-row"><div><div class="week-dot"></div></div><div><p style="font-size:0.82rem;font-weight:900;color:var(--pur-dark);margin-bottom:2px;">Semana 2 — Perda de até 3 kg</p><p style="font-size:0.76rem;color:var(--text-muted);line-height:1.4;">Metabolismo acelerado. Compulsão por doces reduzida significativamente.</p></div></div>
+      <div class="week-row"><div><div class="week-dot grn"></div></div><div><p style="font-size:0.82rem;font-weight:900;color:var(--grn-dark);margin-bottom:2px;">Semana 3 — Perda de 5 a 7 kg</p><p style="font-size:0.76rem;color:var(--text-muted);line-height:1.4;">Gordura localizada diminuindo. Roupas ficando mais folgadas.</p></div></div>
+      <div class="week-row"><div><div class="week-dot grn"></div></div><div><p style="font-size:0.82rem;font-weight:900;color:var(--grn-dark);margin-bottom:2px;">Semana 4 — Perda de 9 a 12 kg</p><p style="font-size:0.76rem;color:var(--text-muted);line-height:1.4;">Transformação visível. Resultado consolidado e sustentável.</p></div></div>
+    </div>
+    <div style="background:linear-gradient(135deg,var(--grn-pale),#DCFCE7);border:2px solid var(--grn-light);border-radius:12px;padding:14px;text-align:center;margin-top:16px;">
+      <p style="font-size:0.78rem;color:var(--grn-dark);font-weight:700;">🎯 Resultado esperado:</p>
+      <p style="font-family:'Fraunces',serif;font-size:1.6rem;color:var(--grn-dark);font-weight:900;">menos 9 a 12 kg em 28 dias</p>
+    </div>
+  </div>
+
+  <!-- O QUE VOU RECEBER — elegante -->
+  <div style="margin-bottom:14px;">
+    <div style="background:linear-gradient(135deg,var(--pur-deep),var(--pur-dark));border-radius:18px 18px 0 0;padding:16px 20px;">
+      <p style="color:var(--pur-light);font-size:0.68rem;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:4px;">📦 Incluído no seu Protocolo</p>
+      <h3 class="headline" style="color:white;font-size:1.1rem;">O que você vai receber</h3>
+    </div>
+    <div style="background:white;border:1px solid #DDD6FE;border-left:1px solid #DDD6FE;border-right:1px solid #DDD6FE;padding:16px 20px;">
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:36px;height:36px;border-radius:10px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;">🍮</div><div><p style="font-size:0.87rem;font-weight:800;color:var(--dark);">Receita Completa da Gelatina Mounjaro</p><p style="font-size:0.73rem;color:var(--text-muted);">Com todas as variações e sabores</p></div><span style="margin-left:auto;color:var(--grn);font-weight:900;font-size:1rem;">✓</span></div>
+        <div style="height:1px;background:#F0EBFF;"></div>
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:36px;height:36px;border-radius:10px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;">📋</div><div><p style="font-size:0.87rem;font-weight:800;color:var(--dark);">Protocolo 28D Completo</p><p style="font-size:0.73rem;color:var(--text-muted);">Passo a passo para os 28 dias</p></div><span style="margin-left:auto;color:var(--grn);font-weight:900;font-size:1rem;">✓</span></div>
+        <div style="height:1px;background:#F0EBFF;"></div>
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:36px;height:36px;border-radius:10px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;">📊</div><div><p style="font-size:0.87rem;font-weight:800;color:var(--dark);">Quadro de Evolução Semanal</p><p style="font-size:0.73rem;color:var(--text-muted);">Acompanhe seu progresso visualmente</p></div><span style="margin-left:auto;color:var(--grn);font-weight:900;font-size:1rem;">✓</span></div>
+        <div style="height:1px;background:#F0EBFF;"></div>
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:36px;height:36px;border-radius:10px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;">📱</div><div><p style="font-size:0.87rem;font-weight:800;color:var(--dark);">Acesso ao Aplicativo Exclusivo</p><p style="font-size:0.73rem;color:var(--text-muted);">Todo o protocolo no seu celular</p></div><span style="margin-left:auto;color:var(--grn);font-weight:900;font-size:1rem;">✓</span></div>
+        <div style="height:1px;background:#F0EBFF;"></div>
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:36px;height:36px;border-radius:10px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;">🏋️</div><div><p style="font-size:0.87rem;font-weight:800;color:var(--dark);">App Academia em Casa</p><p style="font-size:0.73rem;color:var(--text-muted);">Exercícios guiados sem equipamentos</p></div><span style="margin-left:auto;color:var(--grn);font-weight:900;font-size:1rem;">✓</span></div>
+        <div style="height:1px;background:#F0EBFF;"></div>
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:36px;height:36px;border-radius:10px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;">👑</div><div><p style="font-size:0.87rem;font-weight:800;color:var(--dark);">Grupo VIP Exclusivo</p><p style="font-size:0.73rem;color:var(--text-muted);">Comunidade de apoio e motivação</p></div><span style="margin-left:auto;color:var(--grn);font-weight:900;font-size:1rem;">✓</span></div>
+        <div style="height:1px;background:#F0EBFF;"></div>
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:36px;height:36px;border-radius:10px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;">🎓</div><div><p style="font-size:0.87rem;font-weight:800;color:var(--dark);">Acompanhamento Exclusivo</p><p style="font-size:0.73rem;color:var(--text-muted);">Suporte personalizado na sua jornada</p></div><span style="margin-left:auto;color:var(--grn);font-weight:900;font-size:1rem;">✓</span></div>
+        <div style="height:1px;background:#F0EBFF;"></div>
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:36px;height:36px;border-radius:10px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;">♾️</div><div><p style="font-size:0.87rem;font-weight:800;color:var(--dark);">Acesso Vitalício</p><p style="font-size:0.73rem;color:var(--text-muted);">Sem mensalidade, seu para sempre</p></div><span style="margin-left:auto;color:var(--grn);font-weight:900;font-size:1rem;">✓</span></div>
+      </div>
+    </div>
+    <!-- Bônus -->
+    <div style="background:linear-gradient(135deg,#F0FDF4,#DCFCE7);border:1px solid var(--grn-light);border-top:none;border-radius:0 0 18px 18px;padding:16px 20px;">
+      <p style="font-size:0.68rem;font-weight:900;color:var(--grn-dark);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:12px;">🎁 Bônus Incluídos</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+        <div style="background:white;border-radius:12px;padding:12px 10px;border:1px solid var(--grn-light);text-align:center;">
+          <div style="font-size:1.5rem;margin-bottom:6px;">🥑</div>
+          <p style="font-size:0.75rem;font-weight:800;color:var(--grn-dark);line-height:1.3;">Dieta Cetogênica<br><em style="font-weight:600;color:var(--text-muted);">Seca em 15</em></p>
+        </div>
+        <div style="background:white;border-radius:12px;padding:12px 10px;border:1px solid var(--grn-light);text-align:center;">
+          <div style="font-size:1.5rem;margin-bottom:6px;">🍫</div>
+          <p style="font-size:0.75rem;font-weight:800;color:var(--grn-dark);line-height:1.3;">50 Doces que<br><em style="font-weight:600;color:var(--text-muted);">Emagrecem</em></p>
+        </div>
+        <div style="background:white;border-radius:12px;padding:12px 10px;border:1px solid var(--grn-light);text-align:center;">
+          <div style="font-size:1.5rem;margin-bottom:6px;">🤖</div>
+          <p style="font-size:0.75rem;font-weight:800;color:var(--grn-dark);line-height:1.3;">NutrIA<br><em style="font-weight:600;color:var(--text-muted);">Nutricionista 24h</em></p>
+        </div>
+        <div style="background:white;border-radius:12px;padding:12px 10px;border:1px solid var(--grn-light);text-align:center;">
+          <div style="font-size:1.5rem;margin-bottom:6px;">🥩</div>
+          <p style="font-size:0.75rem;font-weight:800;color:var(--grn-dark);line-height:1.3;">Dieta Carnívora<br><em style="font-weight:600;color:var(--text-muted);">Segredos</em></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="btn-grn" onclick="goTo('sq-offer')" style="margin-bottom:20px;font-size:1rem;">QUERO MEU PROTOCOLO AGORA →</button>
+</div>
+
+<!-- ===== OFFER ===== -->
+<div id="sq-offer" class="screen hidden" style="padding:20px 16px 0;">
+  <div class="logo-row"><div class="logo-box" style="display:inline-block;"><img src="https://i.ibb.co/ynB5nQNc/Chat-GPT-Image-21-de-mai-de-2026-18-02-03.png" alt="BariSlim 28D" style="height:44px;width:auto;object-fit:contain;display:block;" onerror="this.outerHTML='<span style=\'font-family:Fraunces,serif;font-size:1.1rem;color:#6D28D9;font-weight:900;\'>BariSlim 28D</span>'"></div></div>
+  <div style="text-align:center;margin-bottom:20px;">
+    <p style="font-size:0.7rem;font-weight:800;color:var(--pur);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">✦ Oferta Especial ✦</p>
+    <h2 class="headline" style="font-size:1.6rem;color:var(--dark);">Escolha seu<br><span class="pur-text">Protocolo</span></h2>
+    <p style="font-size:0.83rem;color:var(--text-muted);margin-top:4px;">Acesso imediato após a confirmação.</p>
+  </div>
+
+  <!-- BÁSICO -->
+  <div class="card" style="border:1px solid #DDD6FE;padding:20px;margin-bottom:28px;">
+    <p style="font-size:0.7rem;font-weight:800;color:var(--text-muted);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:4px;">Plano Básico</p>
+    <h3 class="headline" style="font-size:1.3rem;color:var(--dark);margin-bottom:4px;">Apenas a Receita</h3>
+    <p style="font-size:0.78rem;color:var(--text-muted);margin-bottom:14px;">O essencial para começar o desafio de 28 dias.</p>
+    <div class="div-pur"></div>
+    <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:14px;">
+      <div style="display:flex;align-items:center;gap:10px;"><span style="color:var(--grn);font-weight:900;">✓</span><span style="font-size:0.85rem;font-weight:700;color:var(--dark);">🍮 Receita Completa da Gelatina Mounjaro</span></div>
+      <div style="display:flex;align-items:center;gap:10px;"><span style="color:var(--grn);font-weight:900;">✓</span><span style="font-size:0.85rem;font-weight:700;color:var(--dark);">📋 Modo de preparo passo a passo</span></div>
+      <div style="display:flex;align-items:center;gap:10px;"><span style="color:var(--grn);font-weight:900;">✓</span><span style="font-size:0.85rem;font-weight:700;color:var(--dark);">📝 Orientações básicas do Desafio 28D</span></div>
+    </div>
+    <div class="div-pur"></div>
+    <div style="margin-bottom:14px;"><span style="font-family:'Fraunces',serif;font-size:2.2rem;color:var(--pur-dark);font-weight:900;line-height:1;">R$ 9,90</span><span style="font-size:0.75rem;color:var(--text-muted);"> pagamento único</span></div>
+    <a href="https://pay.wiapy.com/FAWelF2kZ" class="btn-outline">QUERO APENAS A RECEITA</a>
+  </div>
+
+  <!-- PREMIUM — destaque máximo com faixa popular -->
+  <div class="popular-wrap">
+    <div class="popular-ribbon"><span>⭐ MAIS POPULAR · MELHOR CUSTO-BENEFÍCIO ⭐</span></div>
+    <div class="premium-glow card" style="background:linear-gradient(160deg,#FAF5FF 0%,#FFFFFF 60%,#F0FDF4 100%);">
+      <div style="padding:22px 20px 20px;">
+        <!-- badge topo -->
+        <div style="text-align:center;margin-bottom:14px;">
+          <span class="badge-hot" style="font-size:0.7rem;padding:6px 18px;">🏆 PROTOCOLO COMPLETO</span>
+        </div>
+        <h3 class="headline pur-text" style="font-size:1.4rem;margin-bottom:4px;text-align:center;">Protocolo Premium + Bônus</h3>
+        <p style="font-size:0.78rem;color:var(--text-muted);margin-bottom:14px;text-align:center;">Tudo que você precisa para transformar o corpo em 28 dias.</p>
+
+        <!-- economia destacada -->
+        <div style="background:linear-gradient(135deg,#FEF9C3,#FEF08A);border:2px solid #FBBF24;border-radius:12px;padding:10px 14px;margin-bottom:14px;text-align:center;">
+          <p style="font-size:0.72rem;font-weight:900;color:#92400E;text-transform:uppercase;letter-spacing:0.08em;">🔥 VOCÊ ECONOMIZA R$ 72,10</p>
+        </div>
+
+        <div class="div-pur"></div>
+        <p style="font-size:0.68rem;font-weight:900;color:var(--dark);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:10px;">✅ O que está incluído</p>
+        <div style="display:flex;flex-direction:column;gap:7px;margin-bottom:14px;">
+          <div style="display:flex;align-items:center;gap:10px;"><div style="width:28px;height:28px;border-radius:8px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:0.9rem;flex-shrink:0;">🍮</div><span style="font-size:0.83rem;font-weight:700;color:var(--dark);flex:1;">Receita Completa da Gelatina Mounjaro</span><span style="color:var(--grn);font-weight:900;">✓</span></div>
+          <div style="display:flex;align-items:center;gap:10px;"><div style="width:28px;height:28px;border-radius:8px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:0.9rem;flex-shrink:0;">📋</div><span style="font-size:0.83rem;font-weight:700;color:var(--dark);flex:1;">Protocolo 28D Completo</span><span style="color:var(--grn);font-weight:900;">✓</span></div>
+          <div style="display:flex;align-items:center;gap:10px;"><div style="width:28px;height:28px;border-radius:8px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:0.9rem;flex-shrink:0;">📊</div><span style="font-size:0.83rem;font-weight:700;color:var(--dark);flex:1;">Quadro de Evolução Semanal</span><span style="color:var(--grn);font-weight:900;">✓</span></div>
+          <div style="display:flex;align-items:center;gap:10px;"><div style="width:28px;height:28px;border-radius:8px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:0.9rem;flex-shrink:0;">📱</div><span style="font-size:0.83rem;font-weight:700;color:var(--dark);flex:1;">App Exclusivo + Academia em Casa</span><span style="color:var(--grn);font-weight:900;">✓</span></div>
+          <div style="display:flex;align-items:center;gap:10px;"><div style="width:28px;height:28px;border-radius:8px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:0.9rem;flex-shrink:0;">👑</div><span style="font-size:0.83rem;font-weight:700;color:var(--dark);flex:1;">Grupo VIP + Acompanhamento</span><span style="color:var(--grn);font-weight:900;">✓</span></div>
+          <div style="display:flex;align-items:center;gap:10px;"><div style="width:28px;height:28px;border-radius:8px;background:var(--pur-pale);display:flex;align-items:center;justify-content:center;font-size:0.9rem;flex-shrink:0;">♾️</div><span style="font-size:0.83rem;font-weight:700;color:var(--dark);flex:1;">Acesso Vitalício</span><span style="color:var(--grn);font-weight:900;">✓</span></div>
+        </div>
+        <div style="background:linear-gradient(135deg,#F0FDF4,#DCFCE7);border-radius:12px;padding:12px 14px;margin-bottom:14px;">
+          <p style="font-size:0.68rem;font-weight:900;color:var(--grn-dark);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">🎁 + 4 Bônus Exclusivos</p>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;">
+            <div style="display:flex;align-items:center;gap:6px;"><span style="font-size:0.9rem;">🥑</span><span style="font-size:0.75rem;font-weight:700;color:var(--grn-dark);">Dieta Cetogênica</span></div>
+            <div style="display:flex;align-items:center;gap:6px;"><span style="font-size:0.9rem;">🍫</span><span style="font-size:0.75rem;font-weight:700;color:var(--grn-dark);">50 Doces Fit</span></div>
+            <div style="display:flex;align-items:center;gap:6px;"><span style="font-size:0.9rem;">🤖</span><span style="font-size:0.75rem;font-weight:700;color:var(--grn-dark);">NutrIA 24h</span></div>
+            <div style="display:flex;align-items:center;gap:6px;"><span style="font-size:0.9rem;">🥩</span><span style="font-size:0.75rem;font-weight:700;color:var(--grn-dark);">Dieta Carnívora</span></div>
+          </div>
+        </div>
+        <div class="div-pur"></div>
+        <div style="text-align:center;margin-bottom:14px;">
+          <p style="font-size:0.78rem;color:#A0AEC0;text-decoration:line-through;margin-bottom:4px;">De R$ 97,00</p>
+          <span style="font-family:'Fraunces',serif;font-size:3rem;color:var(--pur-dark);font-weight:900;line-height:1;">R$ 24,90</span>
+          <p style="font-size:0.75rem;color:var(--text-muted);margin-top:4px;">pagamento único · acesso vitalício</p>
+        </div>
+        <a href="https://pay.wiapy.com/AX-i_Gp0ea" class="btn-grn" style="font-size:1rem;padding:18px 24px;">QUERO O PROTOCOLO COMPLETO →</a>
+        <p style="text-align:center;font-size:0.7rem;color:var(--text-muted);margin-top:10px;">🔒 Compra 100% segura · Garantia de 7 dias</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:white;border:1px solid #DDD6FE;border-radius:14px;padding:14px;display:flex;gap:12px;align-items:center;margin-bottom:30px;margin-top:20px;">
+    <span style="font-size:2rem;line-height:1;flex-shrink:0;">🛡️</span>
+    <p style="font-size:0.78rem;color:var(--text-med);line-height:1.5;"><strong>Garantia de 7 dias.</strong> Se você não gostar por qualquer motivo, devolvemos 100% do seu dinheiro sem perguntas.</p>
+  </div>
+</div>
+
+</div><!-- /page-wrap -->
+
+<script>
+const ans = {};
+let userName = '';
+
+const carouselData = [
+  { text: '"Perdi 9kg em 28 dias! Meu vizinho perguntou se eu estava doente de tão diferente que fiquei — só que pra melhor! 😂"', author: 'Fernanda S., 34 anos · São Paulo, SP' },
+  { text: '"Em apenas 3 semanas senti a barriga sumindo. Nunca achei que seria tão fácil com algo tão simples como uma gelatina."', author: 'Claudia M., 48 anos · Belo Horizonte, MG' },
+  { text: '"Depois do parto lutei durante 2 anos. Com a Gelatina Mounjaro perdi 11kg em 1 mês. Choro de gratidão!"', author: 'Juliana R., 31 anos · Rio de Janeiro, RJ' },
+  { text: '"Reduzi 12cm de cintura. Passei a usar o vestido que estava guardado há 4 anos. Incrível!"', author: 'Marisa O., 52 anos · Curitiba, PR' }
+];
+
+// ===== VIDEO STATE =====
+let vturb1Loaded = false, vturb2Loaded = false;
+let v1Timer = null, v2Timer = null;
+let v1PollId = null, v2PollId = null;
+
+// ===== STOP PLAYER — destrói o container do vídeo completamente =====
+// Recebe o ID do DIV container (vturb1-container ou vturb2-container)
+// e o tag name do web component para recriar depois se necessário
+function stopPlayer(containerId) {
+  try {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    // Para todos os <video> diretos e dentro de shadow roots
+    container.querySelectorAll('*').forEach(el => {
+      if (el.tagName && el.tagName.toLowerCase() === 'video') {
+        try { el.pause(); el.removeAttribute('src'); el.load(); } catch(e){}
+      }
+      if (el.shadowRoot) {
+        el.shadowRoot.querySelectorAll('video').forEach(v => {
+          try { v.pause(); v.removeAttribute('src'); v.load(); } catch(e){}
+        });
+      }
+    });
+    // Limpa o innerHTML — remove o web component e para o áudio
+    container.innerHTML = '';
+  } catch(e) {}
+}
+
+// ===== NAVIGATION =====
+function goTo(id) {
+  // Parar vídeos ao sair das telas
+  if (id !== 'sq-video1') {
+    clearTimeout(v1Timer); clearInterval(v1PollId);
+    stopPlayer('vturb1-container');
+  }
+  if (id !== 'sq-video2') {
+    clearTimeout(v2Timer); clearInterval(v2PollId);
+    stopPlayer('vturb2-container');
+  }
+
+  document.querySelectorAll('.screen').forEach(s => s.classList.add('hidden'));
+  const el = document.getElementById(id);
+  if (el) el.classList.remove('hidden');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  if (id === 'sq-compare')      setTimeout(() => { setBar('bar1a',90);setBar('bar1b',28);setBar('bar1c',14);setBar('bar2a',5);setBar('bar2b',78);setBar('bar3a',92);setBar('bar3b',13); }, 300);
+  if (id === 'sq-loading')      { startLoad(); initCarousel('carousel-slides','carousel-dots','cap-text',null); }
+  if (id === 'sq-testimonials') { initCarousel('testi-slides','testi-dots','tcap-text','tcap-author'); }
+  if (id === 'sq-plan')         { updatePlanName(); }
+  if (id === 'sq-confirm')      { updateNames('nm-confirm'); }
+  if (id === 'sq-impact')       { updateNames('nm-impact'); }
+  if (id === 'sq-video1')       { initVideo1(); }
+  if (id === 'sq-video2')       { initVideo2(); }
+}
+
+function setBar(id,pct){ const el=document.getElementById(id); if(el) el.style.width=pct+'%'; }
+
+// ===== QUIZ CONTROLS =====
+function pickSingle(el, key, val, next) {
+  document.querySelectorAll(`[onclick*="pickSingle"][onclick*="'${key}'"]`).forEach(e => e.classList.remove('sel'));
+  el.classList.add('sel'); ans[key]=val;
+  setTimeout(() => goTo(next), 320);
+}
+function pickBodyCard(el, key, val, next) {
+  document.querySelectorAll('.body-card').forEach(e => e.classList.remove('sel'));
+  el.classList.add('sel'); ans[key]=val;
+  setTimeout(() => goTo(next), 320);
+}
+function pickBodyGoal(el, val, next) {
+  document.querySelectorAll('.body-goal-card').forEach(e => e.classList.remove('sel'));
+  el.classList.add('sel'); ans['bodydream']=val;
+  setTimeout(() => goTo(next), 320);
+}
+function toggleGoal(el, key) { el.classList.toggle('sel'); el.classList.contains('sel') ? ans[key]=true : delete ans[key]; }
+function toggleArea(el, key) { el.classList.toggle('sel'); el.classList.contains('sel') ? ans[key]=true : delete ans[key]; }
+
+// ===== NAME =====
+function saveName() {
+  const v = document.getElementById('inp-nome').value.trim();
+  if (!v) { document.getElementById('inp-nome').focus(); return; }
+  userName = v; goTo('sq-impact');
+}
+function updateNames(...ids) { ids.forEach(id => { const el=document.getElementById(id); if(el&&userName) el.textContent=userName; }); }
+function updatePlanName() { const el=document.getElementById('nm-plan'); if(el&&userName) el.textContent=userName+','; }
+
+// ===== HEIGHT / WEIGHT =====
+function goToTargetWeight() {
+  const h=parseFloat(document.getElementById('inp-altura').value);
+  const p=parseFloat(document.getElementById('inp-peso').value);
+  const err=document.getElementById('imc-err');
+  if(!h||!p||h<120||h>220||p<40||p>300){ err.classList.remove('hidden'); return; }
+  err.classList.add('hidden'); window._p=p; window._h=h/100; goTo('sq-targetw');
+}
+function showTargetAnalysis() {
+  const meta=parseFloat(document.getElementById('inp-meta').value);
+  const err=document.getElementById('meta-err');
+  if(!meta||meta<30||meta>=window._p){ err.classList.remove('hidden'); return; }
+  err.classList.add('hidden'); window._meta=meta;
+  const diff=(window._p-meta).toFixed(1);
+  document.getElementById('tw-current').textContent=window._p+' kg';
+  document.getElementById('tw-goal').textContent=meta+' kg';
+  document.getElementById('tw-diff').textContent='-'+diff+' kg';
+  document.getElementById('target-analysis-text').innerHTML=`Com o protocolo BariSlim 28D, você pode alcançar <strong>${meta} kg</strong>! A diferença de <strong>${diff} kg</strong> está ao seu alcance.`;
+  document.getElementById('target-analysis').classList.remove('hidden');
+  document.getElementById('target-analysis').scrollIntoView({behavior:'smooth',block:'center'});
+}
+
+// ===== LOADING =====
+function startLoad() {
+  const bar=document.getElementById('load-bar'), txt=document.getElementById('load-txt');
+  const msgs=['Iniciando análise...','Processando perfil metabólico...','Calculando projeção de peso...','Mapeando perfil hormonal...','Analisando padrões alimentares...','Gerando diagnóstico personalizado...','Quase pronto...'];
+  let i=0;
+  const ti=setInterval(()=>{ if(i<msgs.length){txt.textContent=msgs[i];i++;} },1200);
+  let pct=0;
+  const bi=setInterval(()=>{ pct+=1; if(bar) bar.style.width=Math.min(pct,100)+'%'; if(pct>=100){clearInterval(bi);clearInterval(ti);setTimeout(()=>goTo('sq-commit'),800);} },100);
+}
+
+// ===== CAROUSEL =====
+function initCarousel(slidesId, dotsId, capTextId, capAuthorId) {
+  let idx=0;
+  const slides=document.getElementById(slidesId), dots=document.getElementById(dotsId);
+  const capText=document.getElementById(capTextId);
+  const capAuthor=document.getElementById(capAuthorId);
+  if(!slides) return;
+  if(slides.dataset.iv) clearInterval(parseInt(slides.dataset.iv));
+  function upd() {
+    slides.style.transform=`translateX(-${idx*100}%)`;
+    if(dots) dots.querySelectorAll('.carousel-dot').forEach((d,i)=>d.classList.toggle('active',i===idx));
+    if(capText) capText.textContent=carouselData[idx].text;
+    if(capAuthor && carouselData[idx].author) capAuthor.textContent='— '+carouselData[idx].author;
+    else if(capAuthor) capAuthor.textContent='';
+  }
+  upd();
+  const iv=setInterval(()=>{ idx=(idx+1)%carouselData.length; upd(); },2500);
+  slides.dataset.iv=iv;
+}
+
+// ===== COMMIT =====
+function pickCommit(el, val) {
+  document.querySelectorAll('.commit-opt').forEach(e=>e.classList.remove('sel'));
+  el.classList.add('sel'); ans['commit']=val;
+  setTimeout(()=>goTo('sq-video1'),400);
+}
+
+// ===== VTurb VÍDEO 1 =====
+function initVideo1() {
+  // Reinserir o web component no container (pode ter sido limpo pelo stopPlayer)
+  const c1 = document.getElementById('vturb1-container');
+  if (c1 && !c1.querySelector('vturb-smartplayer')) {
+    c1.innerHTML = '<vturb-smartplayer id="vid-6a0fe36c3af54965d468cced" style="display:block;margin:0 auto;width:100%;max-width:400px;"></vturb-smartplayer>';
+  }
+  // Carregar script apenas uma vez
+  if(!vturb1Loaded) {
+    vturb1Loaded=true;
+    const s=document.createElement('script');
+    s.src='https://scripts.converteai.net/d8a1f353-ea4b-4454-88ea-19663408d700/players/6a0fe36c3af54965d468cced/v4/player.js';
+    s.async=true; document.head.appendChild(s);
+  }
+  // Reseta botão
+  const btn=document.getElementById('btn-next-video1');
+  const hint=document.getElementById('video1-hint');
+  if(btn) btn.style.display='none';
+  if(hint) hint.textContent='Assista ao vídeo para continuar.';
+
+  // Mostra botão após 5 segundos
+  v1Timer = setTimeout(()=>unlockVideo1(), 5000);
+
+}
+function unlockVideo1() {
+  const btn=document.getElementById('btn-next-video1');
+  const hint=document.getElementById('video1-hint');
+  if(btn) btn.style.display='block';
+  if(hint) hint.textContent='Já assistiu? Clique para continuar.';
+}
+function advanceVideo1() {
+  clearTimeout(v1Timer); clearInterval(v1PollId);
+  stopPlayer('vturb1-container');
+  goTo('sq-bodydream');
+}
+
+// ===== VTurb VÍDEO 2 =====
+function initVideo2() {
+  // Reinserir o web component no container (pode ter sido limpo pelo stopPlayer)
+  const c2 = document.getElementById('vturb2-container');
+  if (c2 && !c2.querySelector('vturb-smartplayer')) {
+    c2.innerHTML = '<vturb-smartplayer id="vid-6a0ff2b63e6d63af75a9a095" style="display:block;margin:0 auto;width:100%;max-width:400px;"></vturb-smartplayer>';
+  }
+  // Carregar script apenas uma vez
+  if(!vturb2Loaded) {
+    vturb2Loaded=true;
+    const s=document.createElement('script');
+    s.src='https://scripts.converteai.net/d8a1f353-ea4b-4454-88ea-19663408d700/players/6a0ff2b63e6d63af75a9a095/v4/player.js';
+    s.async=true; document.head.appendChild(s);
+  }
+  const btn=document.getElementById('btn-next-video2');
+  const hint=document.getElementById('video2-hint');
+  if(btn) btn.style.display='none';
+  if(hint) hint.textContent='Assista ao vídeo para continuar.';
+
+  // Mostra botão após 5 segundos
+  v2Timer = setTimeout(()=>unlockVideo2(), 5000);
+
+}
+function unlockVideo2() {
+  const btn=document.getElementById('btn-next-video2');
+  const hint=document.getElementById('video2-hint');
+  if(btn) btn.style.display='block';
+  if(hint) hint.textContent='Já assistiu? Clique para continuar.';
+}
+function advanceVideo2() {
+  clearTimeout(v2Timer); clearInterval(v2PollId);
+  stopPlayer('vturb2-container');
+  goTo('sq-plan');
+}
+
+// ===== VTurb events nativos (50% e fim) =====
+document.addEventListener('smartplayer:halfwatched', function(e) {
+  const pid = (e.detail && (e.detail.playerId || e.detail.id || '')) || '';
+  if(pid.includes('6a0fe36c')) unlockVideo1();
+  if(pid.includes('6a0ff2b6')) unlockVideo2();
+});
+document.addEventListener('smartplayer:videoended', function(e) {
+  const pid = (e.detail && (e.detail.playerId || e.detail.id || '')) || '';
+  if(pid.includes('6a0fe36c')) unlockVideo1();
+  if(pid.includes('6a0ff2b6')) unlockVideo2();
+});
+</script>
+</body>
+</html>
